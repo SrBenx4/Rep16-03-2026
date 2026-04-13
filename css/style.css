@@ -9,9 +9,11 @@ body{
 header{
     background-color: black;
 }
+
 nav li:hover{
     background-color: gray;
 }
+
 main{
     background-color: white;
     margin: 0px;
@@ -31,4 +33,17 @@ nav a{
     text-decoration: none;
     color: aliceblue;
     font-size: 20px;
+}
+nav a:hover{
+    color: rgb(0, 0, 0);
+}
+
+#s1{
+    margin-top: 50px;
+    background-image: url('../images/flork.jpg'),url('../images/gato.jpg'),url('../images/flork.jpg'),url('../images/gato.jpg');
+    background-position: top left,top right,bottom right,bottom left;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    padding: 75px;
+    box-shadow: 3px 3px 10px;
 }
